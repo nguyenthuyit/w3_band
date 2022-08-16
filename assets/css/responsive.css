@@ -1,13 +1,13 @@
 /* PC */
-@media (min-with: 1024px) {
+@media (min-width: 1024px) {
 
 }
 /* Tablet */
-@media (min-with :740px) and (max-with :1023px) {
+@media (min-width :740px) and (max-with :1023px) {
     
 }
 /* mobile */
-@media (max-with: 740px) {
+@media (max-width: 740px) {
     #nav>li {
         display: block;
       }
