@@ -45,6 +45,11 @@
         margin-top: 16px;
 
       }
+      .tour .buy-ticket,
+      .contact-form .form-submit{
+        padding: 15px;
+        font-size: 20px;
+      }
     
       .contact-form{
         margin-top: 16px;
@@ -59,5 +64,8 @@
       }
       #header .mobile-menu-button{
         display: block;
+      }
+      .footer-media a {
+        padding: 0 8px;
       }
 }
