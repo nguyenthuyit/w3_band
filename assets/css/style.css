@@ -56,6 +56,7 @@
     top: 0;
     left: 0;
     right: 0;
+    
 
  }
  #nav {
@@ -64,10 +65,11 @@
    
  }
  #nav li{
-    /* trên 1 hàng và có thuộc tính khối để xét các thuộc tính khác */
     position: relative;
- }
- #nav>li {
+   }
+
+   #nav>li {
+    /* trên 1 hàng và có thuộc tính khối để xét các thuộc tính khác */
    display: inline-block;
  }
  /* hiển thị menu con khi di chuyển vào thẻ li chứa nó */
@@ -112,16 +114,19 @@
  
  #nav .subnav li  {
     width: 100%;
+    list-style: none;
    
  }
  #nav .arrow-down {
    font-size: 0.8em;
  }
+ 
  #header .search-button {
    float: right;
    padding: 0 23px;
   
  }
+ #header .menu-icon,
  #header .search-icon {
    font-size: 1.5em;
    color: #fff;
@@ -131,6 +136,22 @@
   background-color: red;
   cursor: pointer;
   
+ }
+ #header .mobile-menu-button{
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: none;
+   padding: 0 23px;
+
+ }
+ #header .mobile-menu-button:hover{
+   background-color: var(--color-hover);
+   
+ }
+ #header .mobile-menu-button:hover .menu-icon{
+  color: #000;
+   
  }
 
 

@@ -8,7 +8,56 @@
 }
 /* mobile */
 @media (max-width: 740px) {
+    .s-col-full{
+      width: 100%;
+    }
+    .mb-8{
+      margin-bottom: 8px;
+    }
     #nav>li {
+        display: block;
+      }
+      /* lấy li thứ nhất của nav */
+      #nav > li:first-child{
+        display: inline-block;
+
+      }
+      #nav {
+        display: block;
+      }
+      #nav .subnav{
+        position: initial;
+        background-color: #ccc;
+      }
+      #nav .subnav li a {
+        color: #fff;
+        padding: 0 41px;
+      }
+      #content .member-item {
+        width: 100%;
+        margin-top: 24px;
+      }
+      #content .member-img{
+        width: 60%;
+      }
+      .tour .location-item{
+        width: 100%;
+        margin-top: 16px;
+
+      }
+    
+      .contact-form{
+        margin-top: 16px;
+       
+      }
+      
+      #header{
+        overflow: hidden;
+      }
+      #header .search-button{
+        display: none;
+      }
+      #header .mobile-menu-button{
         display: block;
       }
 }
